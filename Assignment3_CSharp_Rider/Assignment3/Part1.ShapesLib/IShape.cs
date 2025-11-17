@@ -1,6 +1,6 @@
 using System;
 
-namespace Tut2_s20123;
+namespace Tut3_s28662;
 
 public interface IShape
 {
