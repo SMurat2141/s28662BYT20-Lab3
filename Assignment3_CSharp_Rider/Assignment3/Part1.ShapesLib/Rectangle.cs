@@ -1,10 +1,7 @@
 using System;
 
-namespace Tut2_s20123;
+namespace Tut3_s28662;
 
-/// <summary>
-/// Represents a 2D rectangle (no volume).
-/// </summary>
 public class Rectangle : IShape
 {
     private readonly double _length;
@@ -28,7 +25,6 @@ public class Rectangle : IShape
 
     public double CalculateVolume()
     {
-        // 2D shape, volume is always 0
         return 0;
     }
 }
