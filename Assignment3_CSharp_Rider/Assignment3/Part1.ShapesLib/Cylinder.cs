@@ -1,10 +1,7 @@
 using System;
 
-namespace Tut2_s20123;
+namespace Tut3_s28662;
 
-/// <summary>
-/// Represents a right circular cylinder.
-/// </summary>
 public class Cylinder : IShape
 {
     private readonly double _radius;
@@ -23,13 +20,11 @@ public class Cylinder : IShape
 
     public double CalculateArea()
     {
-        // Surface area: 2πr(r + h)
         return 2 * Math.PI * _radius * (_radius + _height);
     }
 
     public double CalculateVolume()
     {
-        // Volume: πr^2 h
         return Math.PI * Math.Pow(_radius, 2) * _height;
     }
 }
