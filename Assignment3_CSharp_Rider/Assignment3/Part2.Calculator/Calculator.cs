@@ -2,9 +2,6 @@ using System;
 
 namespace Part2.CalculatorLib;
 
-/// <summary>
-/// Very small calculator that performs a single binary operation on two operands.
-/// </summary>
 public class Calculator
 {
     public double A { get; }
