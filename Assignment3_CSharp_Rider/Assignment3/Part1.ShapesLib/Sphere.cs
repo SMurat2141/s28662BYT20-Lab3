@@ -1,10 +1,7 @@
 using System;
 
-namespace Tut2_s20123;
+namespace Tut3_s28662;
 
-/// <summary>
-/// Represents a 3D sphere.
-/// </summary>
 public class Sphere : IShape
 {
     private readonly double _radius;
