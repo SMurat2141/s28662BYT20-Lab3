@@ -1,10 +1,7 @@
 using System;
 
-namespace Tut2_s20123;
+namespace Tut3_s28662;
 
-/// <summary>
-/// Represents a cube.
-/// </summary>
 public class Cube : IShape
 {
     private readonly double _side;
@@ -19,13 +16,11 @@ public class Cube : IShape
 
     public double CalculateArea()
     {
-        // Surface area: 6a^2
         return 6 * Math.Pow(_side, 2);
     }
 
     public double CalculateVolume()
     {
-        // Volume: a^3
         return Math.Pow(_side, 3);
     }
 }
